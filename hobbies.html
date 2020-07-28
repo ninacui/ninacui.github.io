@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Nina Cui: Hobbies and Interests</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+	
+	<body>
+	<!-- sidebar -->
+	<div id="mySidebar" class="sidebar">
+	  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+	  <a href="./index.html">About me</a>
+	  <a href="./CV.html">CV</a>
+	  <a href="./hobbies.html">Hobbies and interests</a>
+	</div>
+
+	<!-- sidebar button -->
+	<button class="openbtn" onclick="openNav()"> Open Sidebar</button>  
+	
+	<div id="main">
+		
+		<header>
+			<h1 class="whiteonpurple">Hobbies and Interests</h1>
+		</header>
+		<section id="purplehobbies">
+			<h2>My hobbies</h2>
+			I enjoy the following hobbies in my free time (try clicking the ones that catch your attention):
+			<!-- List of hobbies-->
+				<ul>
+					<li onclick="changecolour(this, 'blue')">Jog</li>
+					<li onclick="changecolour(this, 'blue')">Design websites</li>
+					<li onclick="changecolour(this, 'blue')">Play guitar</li>
+					<li onclick="changecolour(this, 'blue')">Read</li>
+					<li onclick="changecolour(this, 'blue')">Play video games</li>
+					<li onclick="changecolour(this, 'blue')">Shop</li>
+					<li onclick="changecolour(this, 'blue')">Watch hockey</li>
+				</ul></p>
+		</section>
+			<!-- Insert picture -->
+		<section>
+			<img src="./../Image/hockey.jpg" alt="Photo of hockey game">
+		</section>
+		<section>
+			<h2>Extracurricular activities</h2>
+
+			<!-- Description list: activities -->
+			<dl>
+				<dt>Intramural soccer</dt>
+					<dd>Played indoor and outdoor intramural soccer</dd>
+				<dt>Orientation leader</dt>
+					<dd>Guided first-year students through games and icebreakers</dd>
+				<dt>VP/Editor of <a href="https://uwaffle.wordpress.com/"
+				target="_blank">UWAFFLE, a foodie club</a></dt>
+					<dd>Wrote emails and Facebook updates to our members</dd>
+					<dd>Wrote and edited blog entries.</dd>
+				<dt>Muay Thai</dt>
+					<dd>I tried my best, but if we had rankings, I would have been last place.</dd>
+			</dl>
+		</section>
+		<footer>
+			<p><nav>
+				Navigation:<br>
+				<a href="./index.html">Home</a><br>
+				<a href="./CV.html">CV</a>
+			</nav></p>
+		</footer>
+			<script src="js/mysite.js"></script>
+		
+	</body>
+</html>
